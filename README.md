@@ -17,7 +17,7 @@ The goal of this task is to create and deploy a simple calculator microservice u
    ```bash
    git clone https://github.com/username/sit323-2025-prac4p.git
 
-   API Endpoints
+  ### API Endpoints
 The following endpoints perform basic arithmetic operations:
 
 Addition: /add?num1=<value>&num2=<value>
