@@ -1,0 +1,22 @@
+
+
+const express = require('express');
+const app = express();
+
+app.use(express.json()); // Middleware to parse JSON requests
+
+const calculate = (req, res, operation) => {
+    const num1 = parseFloat(req.query.num1);
+    const num2 = parseFloat(req.query.num2);
+
+app.get('/-----', (req, res) => calculate(req, res, '---'));
+
+app.listen(PORT, () => console.log(`----${PORT}`));
+
+
+PACKAGE MAKER- npm init -y
+
+STRT -node .....js
+
+
+search : http://localhost:3000/----?num1=--&num2=--
