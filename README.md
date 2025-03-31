@@ -20,7 +20,7 @@ Open your terminal and run:
 ```bash
 git clone https://github.com/username/sit323-2025-prac5p.git
 2. Navigate to the Project Directory
-
+```
 cd sit323-2025-prac5p
 3. Install Dependencies
 
