@@ -27,11 +27,13 @@ cd sit323-2025-prac5p
 ```
 3. Install Dependencies
 ```bash
-npm install```
+npm install
+```
 4. Run Locally (Without Docker)
 ```bash
 node server.js
-The server runs at http://localhost:3000.```
+The server runs at http://localhost:3000.
+```
 
 **Docker Setup**
 5. Create a Docker Image
