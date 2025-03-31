@@ -67,12 +67,12 @@ docker-compose up -d
 (a) Tag the Image:
 
 ```bash
-docker tag calculator-app username/calculator-app:latest
+docker tag calculator-app induwara/calculator-app:latest
 ```
 (b) Push the Image:
 
 ```bash
-docker push username/calculator-app:latest
+docker push induwara/calculator-app:latest
 ```
 Verify your image on Docker Hub.
 
