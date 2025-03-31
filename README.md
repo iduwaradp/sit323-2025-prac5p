@@ -44,7 +44,8 @@ Build a Docker image using:
 docker build -t calculator-app .
 6. Run the Docker Container
 ```bash
-docker run -p 3000:3000 --name calculator-container calculator-app```
+docker run -p 3000:3000 --name calculator-container calculator-app
+```
 The service will be available at http://localhost:3000.
 
 7. Create a Docker Compose File
@@ -55,16 +56,19 @@ services:
   calculator:
     build: .
     ports:
-      - "3000:3000"```
+      - "3000:3000"
+```
 Start the application using:
 
 ```bash
-docker-compose up -d```
+docker-compose up -d
+```
 8. Push the Docker Image to Docker Hub
 (a) Tag the Image:
 
 ```bash
-docker tag calculator-app username/calculator-app:latest```
+docker tag calculator-app username/calculator-app:latest
+```
 (b) Push the Image:
 
 ```bash
